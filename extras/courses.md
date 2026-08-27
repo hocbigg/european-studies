@@ -1,42 +1,28 @@
-# Great Courses
+# Great Courses in European Studies
 
-This is a list of high-quality courses that, for one reason or another, didn't make it into the curriculum.
-The most common reasons are that the course isn't available often enough,
-or that there was an alternative that fit better into the curriculum.
+This curated collection gathers exceptional university lectures, high-production MOOCs, and deep-dive video courses that build advanced intuition across the history, politics, political economy, and cultural foundations of Europe.
 
-## History
+## Historical Deep-Dives & National Trajectories
 
-| Courses | Duration | Effort |
-| :-- | :--: | :--: |
-| [The Early Middle Ages, 284–1000 (Yale Open Courses)](https://oyc.yale.edu/history/hist-210) | 24 lectures | Self-paced |
-| [France Since 1871 (Yale Open Courses)](https://oyc.yale.edu/history/hist-276) | 24 lectures | Self-paced |
-| [A History of Eastern Europe (The Great Courses Plus)](https://www.thegreatcoursesplus.com/a-history-of-eastern-europe) | 24 lectures | Self-paced |
+- [HIST 276: France Since 1871 (Open Yale Courses / Yale University / John Merriman)](https://oyc.yale.edu/history/hist-276)
+- [HIST 251: Early Modern England: Politics, Religion, and Society under the Tudors and Stuarts (Open Yale Courses / Yale University / Keith Wrightson)](https://oyc.yale.edu/history/hist-251)
+- [The Making of Modern Ukraine (YouTube / Yale University / Timothy Snyder)](https://www.youtube.com/playlist?list=PLh9mgdi4rNewfxO7LhBoz_1Mx1MaO6sw_)
+- [HIST 234: Epidemics in Western Society Since 1600 (Open Yale Courses / Yale University / Frank Snowden)](https://oyc.yale.edu/history/hist-234)
 
-## Politics and EU
+## European Geopolitics, Security & Global Order
 
-| Courses | Duration | Effort |
-| :-- | :--: | :--: |
-| [Geopolitics of Europe (Sciences Po on Coursera)](https://www.coursera.org/learn/geopolitics-europe) | 6 weeks | 3-5 hours/week |
-| [The European Union in Global Governance (KU Leuven on edX)](https://www.edx.org/learn/europe/ku-leuven-european-history-society-and-culture) | Self-paced | Variable |
-| [European Business Law: Understanding the Fundamentals (Lund University on Coursera)](https://www.coursera.org/learn/european-law-fundamentals) | 6 weeks | 4-6 hours/week |
+- [Geopolitics of Europe (Coursera / Sciences Po / Sylvain Kahn)](https://www.coursera.org/learn/geopolitics-europe)
+- [Power and Politics in Today's World (YouTube / Yale University / Ian Shapiro)](https://www.youtube.com/playlist?list=PLh9mgdi4rNeyViG2ar68jkgEi4y6doNZy)
+- [The European Union and International Affairs (edX / KU Leuven / Axel Marx & Kari Otteburn)](https://www.edx.org/learn/international-affairs/ku-leuven-the-european-union-and-international-affairs)
 
-## Culture and Society
+## European Law, Political Economy & Integration
 
-| Courses | Duration | Effort |
-| :-- | :--: | :--: |
-| [Cultural Studies and Modern Languages: An Introduction (OpenLearn)](https://www.open.edu/openlearn/history-the-arts/cultural-studies-and-modern-languages-introduction/content-section-0) | Short | Self-paced |
-| [Why We Post: Social Media in Global Perspective (FutureLearn)](https://www.futurelearn.com/courses/why-we-post) | 5 weeks | 3 hours/week |
+- [European Business Law: Understanding the Fundamentals (Coursera / Lund University / Hans Henrik Lidgard & Annegret Engel)](https://www.coursera.org/learn/european-law-fundamentals)
+- [The Eurozone Crisis (Marginal Revolution University / Tyler Cowen & Alex Tabarrok)](https://mru.org/courses/eurozone-crisis)
+- [EU Policy and Implementation: Making Europe Work! (Coursera / Universiteit Leiden / Bernard Steunenberg)](https://www.coursera.org/learn/eu-policy)
 
+## Ideas, Literature & European Cultural Horizons
 
-## Online Learning - Great Courses
-
-Courses | Duration | Effort
-:-- | :--: | :--:
-[Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn) | 4 weeks | 2 hours/week
-[Mindshift](https://www.coursera.org/learn/mindshift) | 4 weeks | 2 hours/week
-[Powersearching with Google](https://www.edx.org/learn/google-power-searching/google-power-searching-with-google) | 3 weeks | 4-6 hours/week
-
-## Other
-
-- [Open Educational Resources for European Studies (University of Florida Guide)](https://guides.uflib.ufl.edu/euguide/oer)
-- [edX European Studies Courses Collection](https://www.edx.org/learn/europe)
+- [ITAL 310: Dante in Translation (Open Yale Courses / Yale University / Giuseppe Mazzotta)](https://oyc.yale.edu/italian-language-and-literature/ital-310)
+- [European Culture and Politics (FutureLearn / University of Groningen)](https://www.futurelearn.com/courses/european-culture)
+- [Cultures and Identities in Europe (FutureLearn / European University Institute)](https://www.futurelearn.com/courses/culture-identity-europe)

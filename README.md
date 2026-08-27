@@ -59,11 +59,11 @@ Study these sections in this order:
 
 **Historical Foundations of Europe (Chronological Core)**: Move to this section next. It builds the timeline and major turning points that explain why Europe is the way it is today. Almost everything else in the curriculum refers back to this history.
 
-**European Politics and Governance**: Study this third. It shows how modern European societies organize power, make decisions, and cooperate (especially through the European Union). This section ties the history to the present-day political reality.
+**European Politics and Governance**: Study this third. It shows how modern European societies organize power, make decisions, and cooperate (especially through the European Union and its legal order). This section ties the history to the present-day political reality.
 
-**European Economies and Political Economy**: Money, markets, economic crises, the euro, or how economic forces shape European politics and society. 
+**European Economies and Political Economy**: Money, markets, economic integration, the euro, varieties of European capitalism, and welfare state models.
 
-**European Cultures, Ideas, and Society**: Art, literature, philosophy, identity, migration, media, or the everyday cultural life of Europeans. 
+**European Cultures, Ideas, and Society**: Art, political and intellectual thought, identity, migration, media, and the everyday cultural life of Europeans.
 
 ## European Language Proficiency
 
@@ -75,8 +75,8 @@ Continuous study of **one modern European language** (French, German, Spanish, I
 
 | Subject | Book/Text | Course |
 | --- | --- | --- |
-| Introduction to European Studies | **[Europe: A History](https://archive.org/details/europehistory00davi_0) — Norman Davies (Archive.org PDF)** | **[European Culture and Politics](https://www.futurelearn.com/courses/european-culture) — FutureLearn** |
-| European Geography and Regional Diversity | *Europe: Geography & Society* — University of Colorado (open lecture notes) | — |
+| Introduction to European Studies: The Idea of Europe | *The Idea of Europe: From Antiquity to the European Union* — Anthony Pagden (ed.) | **[European Culture and Politics](https://www.futurelearn.com/courses/european-culture) — FutureLearn** |
+| European Geography and Regional Diversity | *The European Culture Area: A Systematic Geography* — Alexander B. Murphy et al. | — |
 
 ## Historical Foundations of Europe
 
@@ -84,16 +84,16 @@ Continuous study of **one modern European language** (French, German, Spanish, I
 
 | Subject | Book/Text | Course |
 | --- | --- | --- |
-| Ancient European Foundations | **[World History, Volume 1](https://openstax.org/details/books/world-history-volume-1) — OpenStax (Ancient Europe sections)** | — |
-| Early Medieval Europe (c. 284–1000) | — | **[Yale Open Courses — HIST 210: Early Middle Ages](https://oyc.yale.edu/history/hist-210)** |
-| High Medieval and Renaissance Europe | *The Making of Europe* — Robert Bartlett (authoritative text) | — |
+| Ancient European Foundations | **[World History, Volume 1](https://openstax.org/details/books/world-history-volume-1) — OpenStax (Ancient Europe sections)** | **[Yale Open Courses — CLCV 205: Introduction to Ancient Greek History](https://oyc.yale.edu/classics/clcv-205)** |
+| Early Medieval Europe (c. 284–1000) | *The Inheritance of Rome: Illuminating the Dark Ages 400–1000* — Chris Wickham | **[Yale Open Courses — HIST 210: Early Middle Ages](https://oyc.yale.edu/history/hist-210)** |
+| High Medieval and Renaissance Europe | *The Making of Europe: Conquest, Colonization and Cultural Change 950–1350* — Robert Bartlett | — |
 
 ### Early Modern to Modern Europe
 
 | Subject | Book/Text | Course |
 | --- | --- | --- |
-| Early Modern Europe (1500–1815) | *A History of Modern Europe* — John Merriman | **[Yale Open Courses — HIST 202: European Civilization, 1648–1945](https://oyc.yale.edu/history/hist-202)** |
-| Modern Europe (1815–1945) | — | Continuation of HIST 202 |
+| Early Modern Europe (1500–1815) | *A History of Modern Europe: From the Renaissance to the Present (Vol. 1)* — John Merriman | **[Yale Open Courses — HIST 202: European Civilization, 1648–1945](https://oyc.yale.edu/history/hist-202)** |
+| Modern Europe (1815–1945) | *A History of Modern Europe: From the French Revolution to the Present (Vol. 2)* — John Merriman | Continuation of HIST 202 |
 
 ### Contemporary Europe
 
@@ -107,38 +107,34 @@ Continuous study of **one modern European language** (French, German, Spanish, I
 
 | Subject | Book/Text | Course |
 | --- | --- | --- |
-| Introduction to European Political Systems | *European Politics: A Comparative Introduction* — Tim Bale | — |
-| Comparative European Politics | *Foundations of European Politics* — de Vries et al. | — |
+| Comparative European Politics: Institutions and Governance | *European Politics: A Comparative Introduction* — Tim Bale | — |
+| Comparative European Politics: Parties, Elections, and Representation | *Foundations of European Politics: A New Approach for Teaching and Learning* — Catherine E. de Vries et al. | — |
 
 ### European Union Studies
 
 | Subject | Book/Text | Course |
 | --- | --- | --- |
-| History and Institutions of the EU | *Understanding the European Union* — John McCormick | **[EU Policy and Implementation: Making Europe Work](https://www.coursera.org/learn/eu-policy) — Coursera** |
-| EU Policies and External Relations | *The Foreign Policy of the European Union* — Federiga Bindi | — |
-| Europe in Global Affairs | *The European Union as a Global Actor* — Bretherton & Vogler | — |
+| History and Institutions of the EU | *Understanding the European Union: A Concise Introduction* — John McCormick | **[EU Policy and Implementation: Making Europe Work](https://www.coursera.org/learn/eu-policy) — Coursera** |
+| European Union Law and Legal Framework | *EU Law: Text, Cases, and Materials* — Paul Craig & Gráinne de Búrca | **[European Business Law: Understanding the Fundamentals](https://www.coursera.org/learn/european-law-fundamentals) — Coursera** |
+| European Union External Action and Foreign Policy | *The Foreign Policy of the European Union* — Federiga Bindi | **[KULeuvenX: The European Union and International Affairs](https://www.edx.org/learn/international-affairs/ku-leuven-the-european-union-and-international-affairs) — edX** |
 
 ## European Economies and Political Economy
 
 | Subject | Book/Text | Course |
 | --- | --- | --- |
-| European Economic Integration | *The Economics of European Integration* — Baldwin & Wyplosz | — |
-| The Eurozone and Economic Crises | *The Euro and the Battle of Ideas* — Brunnermeier et al. | **[The Eurozone Crisis](https://mru.org/courses/eurozone-crisis) — Marginal Revolution University** |
-| Globalization and Europe | *And the Weak Suffer What They Must?* — Yanis Varoufakis | — |
+| European Economic Integration | *The Economics of European Integration* — Richard Baldwin & Charles Wyplosz | — |
+| The Eurozone and Economic Crises | *The Euro and the Battle of Ideas* — Markus K. Brunnermeier, Harold James, and Jean-Pierre Landau | **[The Eurozone Crisis](https://mru.org/courses/eurozone-crisis) — Marginal Revolution University** |
+| Comparative European Political Economy and Welfare Regimes | *Varieties of Capitalism* — Peter A. Hall & David Soskice; and *The Three Worlds of Welfare Capitalism* — Gøsta Esping-Andersen | — |
 
 ## European Cultures, Ideas, and Society
 
 | Subject | Book/Text | Course |
 | --- | --- | --- |
-| European Intellectual History | Yale Open Courses — HIST 202 (intellectual themes) | **[Introduction to Theory of Literature](https://oyc.yale.edu/english/engl-300) — Open Yale** |
+| European Intellectual History & Political Thought | *Modern European Thought: Continuity and Change in Ideas, 1600–1950* — Franklin L. Baumer | **[Yale Open Courses — PLSC 114: Introduction to Political Philosophy](https://oyc.yale.edu/political-science/plsc-114)** |
 | European Art, Media, and Representation | *Ways of Seeing* — John Berger | — |
-| Contemporary European Society and Migration | *Migration in Europe* — European Commission Joint Research Centre (open-access) | — |
-| European Cultures and Identities | — | **[Cultures and Identities in Europe](https://www.futurelearn.com/courses/culture-identity-europe) — FutureLearn** |
-
+| Contemporary European Society and Migration | *European Society: A New Introduction* — William Outhwaite; and *Migration in Europe* — European Commission Joint Research Centre | — |
+| European Cultures and Identities | *Inventing Europe: Idea, Identity, Reality* — Gerard Delanty | **[Cultures and Identities in Europe](https://www.futurelearn.com/courses/culture-identity-europe) — FutureLearn** |
 
 # Code of conduct
 
 [Hocbigg's code of conduct](https://github.com/hocbigg/code-of-conduct).
-
-
-

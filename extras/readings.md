@@ -1,37 +1,48 @@
-# Great Readings
+# Great Readings in European Studies
 
-This document consists of great books or articles on European Studies.
-Some are here because there is a course covering the same material;
-some are just great books that you should read at some point in your career.
+This bibliography curates field-defining monographs, seminal theoretical essays, and landmark papers across European Studies. These works represent intellectual milestones that formulated the paradigms, debates, and empirical foundations of the discipline.
 
-Once you have made it through most of the curriculum, knowing whether a book is worth your time will become easier.
-Or, if you are struggling in one of the courses, perhaps reading a book on the subject will help.
+## The Idea of Europe & State Formation
 
+| Title | Author(s) | Type | Why It's Worth Reading |
+| :-- | :-- | :-- | :-- |
+| [*Perpetual Peace: A Philosophical Sketch*](https://archive.org/details/perpetualpeaceph00kantiala) | Immanuel Kant | Essay / Classic | Formulated the visionary philosophical blueprint for a federation of free republican states, laying the conceptual foundation for democratic peace theory and European supranationalism. |
+| *Coercion, Capital, and European States, AD 990–1992* | Charles Tilly | Monograph | Formulates the definitive historical-sociological thesis that European state formation was driven by the co-evolution of coercive military extraction and capital accumulation. |
+| *The Making of Europe: Conquest, Colonization and Cultural Change 950–1350* | Robert Bartlett | Monograph | Demonstrates how medieval Europe developed a shared cultural and legal identity through the outward expansion and institutional standardization of Latin Christendom. |
+| *Heart of Europe: A History of the Holy Roman Empire* | Peter H. Wilson | Monograph | Decenters national historiographies by reconstructing how a thousand-year decentralized polity negotiated multi-layered sovereignty, legal pluralism, and collective security. |
 
-## General European Studies
+## Totalitarianism, War & Post-War Rebirth
 
-| Name | Author(s) |
-| :-- | :--: |
-| [The Inheritance of Rome: Illuminating the Dark Ages 400-1000](https://www.amazon.com/Inheritance-Rome-Illuminating-Dark-Ages/dp/0143117424) | Chris Wickham |
-| [Heart of Europe: A History of the Holy Roman Empire](https://www.amazon.com/Heart-Europe-History-Roman-Empire/dp/0674058097) | Peter H. Wilson |
+| Title | Author(s) | Type | Why It's Worth Reading |
+| :-- | :-- | :-- | :-- |
+| *The Origins of Totalitarianism* | Hannah Arendt | Monograph | Classic investigation into how European antisemitism, imperialist expansion, and the collapse of the nation-state system generated modern totalitarian regimes. |
+| *The Sleepwalkers: How Europe Went to War in 1914* | Christopher Clark | Monograph | A landmark reinterpretation of diplomatic decision-making, demonstrating how cognitive biases, fragmented power centers, and institutional blindness led European powers into catastrophe. |
+| *Dark Continent: Europe's Twentieth Century* | Mark Mazower | Monograph | Rebuts teleological narratives of inevitable liberal triumph, analyzing modern European history as a violent contest between democracy, fascism, and communism. |
+| [*Postwar: A History of Europe Since 1945*](https://archive.org/details/postwarhistoryof00judt) | Tony Judt | Monograph | The definitive narrative and moral history of post-war European recovery, showing how reconstruction required a foundation of strategic historical amnesia before confronting the Holocaust. |
 
-## History
+## Theories of European Integration & Supranational Governance
 
-| Name | Author(s) |
-| :-- | :--: |
-| [The Sleepwalkers: How Europe Went to War in 1914](https://www.amazon.com/Sleepwalkers-Europe-Went-War-1914/dp/0061146668) | Christopher Clark |
-| [Iron Kingdom: The Rise and Downfall of Prussia, 1600-1947](https://www.amazon.com/Iron-Kingdom-Downfall-Prussia-1600-1947/dp/0674023854) | Christopher Clark |
+| Title | Author(s) | Type | Why It's Worth Reading |
+| :-- | :-- | :-- | :-- |
+| [*The Uniting of Europe: Political, Social, and Economic Forces, 1950–1957*](https://archive.org/details/unitingofeuropep0000haas) | Ernst B. Haas | Monograph | Founded neofunctionalist integration theory, conceptualizing how sector-specific economic integration produces functional and political "spillovers" that drive supranational governance. |
+| *The European Rescue of the Nation-State* | Alan S. Milward | Monograph | Revolutionized EU historiography by demonstrating that post-WWII supranational integration was designed not to weaken the nation-state, but to re-establish its legitimacy and capacity. |
+| [*The Transformation of Europe*](https://www.jstor.org/stable/796898) | J.H.H. Weiler | Landmark Paper | Seminal constitutional treatise explaining how the European Court of Justice quietly constitutionalized the founding treaties into binding supranational law via Direct Effect and Supremacy. |
+| *The Choice for Europe: Social Purpose and State Power from Messina to Maastricht* | Andrew Moravcsik | Monograph | Formulated the liberal intergovernmentalist paradigm, arguing that European treaty milestones result from rational geopolitical-economic bargaining among sovereign member states. |
+| *The Passage to Europe: How a Continent Became a Union* | Luuk van Middelaar | Monograph | Offers an insightful political-philosophical analysis of the EU from within, delineating the dynamic tension between the outer sphere of sovereign states and the inner sphere of community institutions. |
 
-## Politics and EU
+## Comparative European Political Economy & Social Models
 
-| Name | Author(s) |
-| :-- | :--: |
-| [Why Europe Will Run the 21st Century](https://www.amazon.com/Why-Europe-Will-Run-Century/dp/1586484249) | Mark Leonard |
-| [The Passage to Europe: How a Continent Became a Union](https://www.amazon.com/Passage-Europe-Continent-Became-Union/dp/0300191554) | Luuk van Middelaar |
+| Title | Author(s) | Type | Why It's Worth Reading |
+| :-- | :-- | :-- | :-- |
+| *The Great Transformation: The Political and Economic Origins of Our Time* | Karl Polanyi | Monograph | Essential political-economy classic establishing that self-regulating market experiments disembed economies from social fabrics, provoking protective regulatory counter-movements. |
+| *The Three Worlds of Welfare Capitalism* | Gøsta Esping-Andersen | Monograph | Groundbreaking comparative typology classifying Western European welfare states into distinct Liberal, Corporatist, and Social Democratic institutional regimes. |
+| *Varieties of Capitalism: The Institutional Foundations of Comparative Advantage* | Peter A. Hall & David Soskice (eds.) | Monograph | Established the foundational framework distinguishing Europe's Coordinated Market Economies from Liberal Market Economies based on institutional complementarities. |
+| *The Euro and the Battle of Ideas* | Markus K. Brunnermeier, Harold James, & Jean-Pierre Landau | Monograph | Analyzes the Eurozone crisis through the prism of competing economic philosophies, particularly the structural clash between German rule-based ordoliberalism and French discretionary Keynesianism. |
 
-## Culture and Society
+## Nationalism, Postnationalism & European Identity
 
-| Name | Author(s) |
-| :-- | :--: |
-| [The WEIRDest People in the World](https://www.amazon.com/WEIRDest-People-World-Industrialized-Democratic/dp/0374173222) | Joseph Henrich |
-| [Remote: Reflections on Life in the Shadow of Celebrity](https://archive.org/details/remoteofficework00) (free alternative example) | Various |
+| Title | Author(s) | Type | Why It's Worth Reading |
+| :-- | :-- | :-- | :-- |
+| *Imagined Communities: Reflections on the Origin and Spread of Nationalism* | Benedict Anderson | Monograph | Foundational text explaining how nations are socially constructed, imagined political communities enabled by print-capitalism and changing conceptions of time. |
+| *The Postnational Constellation: Political Essays* | Jürgen Habermas | Monograph / Essay Collection | Conceptualizes constitutional patriotism and argues for the necessity of extending democratic legitimacy and public deliberation beyond nation-state boundaries into Europe. |
+| *Inventing Eastern Europe: The Map of Civilization on the Mind of the Enlightenment* | Larry Wolff | Monograph | Landmark intellectual history tracing how 18th-century Enlightenment philosophers intellectually manufactured "Eastern Europe" as a liminal, backward counterpart to define Western civilization. |
