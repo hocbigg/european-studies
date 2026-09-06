@@ -75,8 +75,8 @@ Continuous study of **one modern European language** (French, German, Spanish, I
 
 | Subject | Book/Text | Course |
 | --- | --- | --- |
-| Introduction to European Studies: The Idea of Europe | *The Idea of Europe: From Antiquity to the European Union* — Anthony Pagden (ed.) | **[European Culture and Politics](https://www.futurelearn.com/courses/european-culture) — FutureLearn** |
-| European Geography and Regional Diversity | *The European Culture Area: A Systematic Geography* — Alexander B. Murphy et al. | — |
+| Introduction to European Studies: The Idea of Europe | *[The Idea of Europe: From Antiquity to the European Union](https://books.google.com/books?isbn=9780521795524)* — Anthony Pagden (ed.) | **[European Culture and Politics](https://www.futurelearn.com/courses/european-culture) — FutureLearn** |
+| European Geography and Regional Diversity | *[The European Culture Area: A Systematic Geography](https://archive.org/details/europeanculturea0000murp)* — Alexander B. Murphy et al. | — |
 
 ## Historical Foundations of Europe
 
@@ -85,15 +85,15 @@ Continuous study of **one modern European language** (French, German, Spanish, I
 | Subject | Book/Text | Course |
 | --- | --- | --- |
 | Ancient European Foundations | **[World History, Volume 1](https://openstax.org/details/books/world-history-volume-1) — OpenStax (Ancient Europe sections)** | **[Yale Open Courses — CLCV 205: Introduction to Ancient Greek History](https://oyc.yale.edu/classics/clcv-205)** |
-| Early Medieval Europe (c. 284–1000) | *The Inheritance of Rome: Illuminating the Dark Ages 400–1000* — Chris Wickham | **[Yale Open Courses — HIST 210: Early Middle Ages](https://oyc.yale.edu/history/hist-210)** |
-| High Medieval and Renaissance Europe | *The Making of Europe: Conquest, Colonization and Cultural Change 950–1350* — Robert Bartlett | — |
+| Early Medieval Europe (c. 284–1000) | *[The Inheritance of Rome: Illuminating the Dark Ages 400–1000](https://archive.org/details/inheritanceofrom0000wick)* — Chris Wickham | **[Yale Open Courses — HIST 210: Early Middle Ages](https://oyc.yale.edu/history/hist-210)** |
+| High Medieval and Renaissance Europe | *[The Making of Europe: Conquest, Colonization and Cultural Change 950–1350](https://archive.org/details/makingofeuropeco0000bart)* — Robert Bartlett | — |
 
 ### Early Modern to Modern Europe
 
 | Subject | Book/Text | Course |
 | --- | --- | --- |
-| Early Modern Europe (1500–1815) | *A History of Modern Europe: From the Renaissance to the Present (Vol. 1)* — John Merriman | **[Yale Open Courses — HIST 202: European Civilization, 1648–1945](https://oyc.yale.edu/history/hist-202)** |
-| Modern Europe (1815–1945) | *A History of Modern Europe: From the French Revolution to the Present (Vol. 2)* — John Merriman | Continuation of HIST 202 |
+| Early Modern Europe (1500–1815) | *[A History of Modern Europe: From the Renaissance to the Present (Vol. 1)](https://books.google.com/books?isbn=9780393934335)* — John Merriman | **[Yale Open Courses — HIST 202: European Civilization, 1648–1945](https://oyc.yale.edu/history/hist-202)** |
+| Modern Europe (1815–1945) | *[A History of Modern Europe: From the French Revolution to the Present (Vol. 2)](https://books.google.com/books?isbn=9780393924954)* — John Merriman | Continuation of HIST 202 |
 
 ### Contemporary Europe
 
@@ -107,33 +107,33 @@ Continuous study of **one modern European language** (French, German, Spanish, I
 
 | Subject | Book/Text | Course |
 | --- | --- | --- |
-| Comparative European Politics: Institutions and Governance | *European Politics: A Comparative Introduction* — Tim Bale | — |
-| Comparative European Politics: Parties, Elections, and Representation | *Foundations of European Politics: A New Approach for Teaching and Learning* — Catherine E. de Vries et al. | — |
+| Comparative European Politics: Institutions and Governance | *[European Politics: A Comparative Introduction](https://books.google.com/books?isbn=9781137581334)* — Tim Bale | — |
+| Comparative European Politics: Parties, Elections, and Representation | *[Foundations of European Politics: A New Approach for Teaching and Learning](https://books.google.com/books?isbn=9780198831303)* — Catherine E. de Vries et al. | — |
 
 ### European Union Studies
 
 | Subject | Book/Text | Course |
 | --- | --- | --- |
-| History and Institutions of the EU | *Understanding the European Union: A Concise Introduction* — John McCormick | **[EU Policy and Implementation: Making Europe Work](https://www.coursera.org/learn/eu-policy) — Coursera** |
-| European Union Law and Legal Framework | *EU Law: Text, Cases, and Materials* — Paul Craig & Gráinne de Búrca | **[European Business Law: Understanding the Fundamentals](https://www.coursera.org/learn/european-law-fundamentals) — Coursera** |
-| European Union External Action and Foreign Policy | *The Foreign Policy of the European Union* — Federiga Bindi | **[KULeuvenX: The European Union and International Affairs](https://www.edx.org/learn/international-affairs/ku-leuven-the-european-union-and-international-affairs) — edX** |
+| History and Institutions of the EU | *[Understanding the European Union: A Concise Introduction](https://books.google.com/books?isbn=9781350311541)* — John McCormick | **[EU Policy and Implementation: Making Europe Work](https://www.coursera.org/learn/eu-policy) — Coursera** |
+| European Union Law and Legal Framework | *[EU Law: Text, Cases, and Materials](https://archive.org/details/eulawtextcasesma0000crai_v9n4)* — Paul Craig & Gráinne de Búrca | **[European Business Law: Understanding the Fundamentals](https://www.coursera.org/learn/european-law-fundamentals) — Coursera** |
+| European Union External Action and Foreign Policy | *[The Foreign Policy of the European Union](https://books.google.com/books?isbn=9780815704638)* — Federiga Bindi | **[KULeuvenX: The European Union and International Affairs](https://www.edx.org/learn/international-affairs/ku-leuven-the-european-union-and-international-affairs) — edX** |
 
 ## European Economies and Political Economy
 
 | Subject | Book/Text | Course |
 | --- | --- | --- |
-| European Economic Integration | *The Economics of European Integration* — Richard Baldwin & Charles Wyplosz | — |
-| The Eurozone and Economic Crises | *The Euro and the Battle of Ideas* — Markus K. Brunnermeier, Harold James, and Jean-Pierre Landau | **[The Eurozone Crisis](https://mru.org/courses/eurozone-crisis) — Marginal Revolution University** |
-| Comparative European Political Economy and Welfare Regimes | *Varieties of Capitalism* — Peter A. Hall & David Soskice; and *The Three Worlds of Welfare Capitalism* — Gøsta Esping-Andersen | — |
+| European Economic Integration | *[The Economics of European Integration](https://books.google.com/books?isbn=9781526847218)* — Richard Baldwin & Charles Wyplosz | — |
+| The Eurozone and Economic Crises | *[The Euro and the Battle of Ideas](https://books.google.com/books?isbn=9780691172927)* — Markus K. Brunnermeier, Harold James, and Jean-Pierre Landau | **[The Eurozone Crisis](https://mru.org/courses/eurozone-crisis) — Marginal Revolution University** |
+| Comparative European Political Economy and Welfare Regimes | *[Varieties of Capitalism](https://books.google.com/books?isbn=9780191530104)* — Peter A. Hall & David Soskice; and *[The Three Worlds of Welfare Capitalism](https://books.google.com/books?isbn=9780691028576)* — Gøsta Esping-Andersen | — |
 
 ## European Cultures, Ideas, and Society
 
 | Subject | Book/Text | Course |
 | --- | --- | --- |
-| European Intellectual History & Political Thought | *Modern European Thought: Continuity and Change in Ideas, 1600–1950* — Franklin L. Baumer | **[Yale Open Courses — PLSC 114: Introduction to Political Philosophy](https://oyc.yale.edu/political-science/plsc-114)** |
-| European Art, Media, and Representation | *Ways of Seeing* — John Berger | — |
+| European Intellectual History & Political Thought | *[Modern European Thought: Continuity and Change in Ideas, 1600–1950](https://archive.org/details/moderneuropeanth0000baum)* — Franklin L. Baumer | **[Yale Open Courses — PLSC 114: Introduction to Political Philosophy](https://oyc.yale.edu/political-science/plsc-114)** |
+| European Art, Media, and Representation | *[Ways of Seeing](https://books.google.com/books?isbn=9780141035796)* — John Berger | — |
 | Contemporary European Society and Migration | *European Society: A New Introduction* — William Outhwaite; and *Migration in Europe* — European Commission Joint Research Centre | — |
-| European Cultures and Identities | *Inventing Europe: Idea, Identity, Reality* — Gerard Delanty | **[Cultures and Identities in Europe](https://www.futurelearn.com/courses/culture-identity-europe) — FutureLearn** |
+| European Cultures and Identities | *[Inventing Europe: Idea, Identity, Reality](https://books.google.com/books?isbn=9780333622032)* — Gerard Delanty | **[Cultures and Identities in Europe](https://www.futurelearn.com/courses/culture-identity-europe) — FutureLearn** |
 
 # Code of conduct
 
