@@ -3,23 +3,13 @@ title: Hocbigg - European Studies
 description: Path to a free self-taught education in European Studies!
 ---
 
-# Contents
-
-- [Summary](#summary)
-- [Communities](#communities)
-- [Curriculum](#curriculum)
-- [Code of conduct](#code-of-conduct)
-
-# Summary
+## Introduction
 
 This roadmap is designed to provide a university-level foundation in **European Studies**, an interdisciplinary field combining history, politics, culture, economics, languages, and international relations with a focus on Europe and the European Union.
 
-Note: When there are courses or books that don't fit into the curriculum but are otherwise of high quality,
-they belong in [extras/courses](extras/courses.md), [extras/readings](extras/readings.md).
-
 **[How to contribute](/CONTRIBUTING.html)**
 
-# Communities
+## Communities
 
 - Subreddits:
     - [r/europe](https://www.reddit.com/r/europe/)
@@ -32,109 +22,111 @@ they belong in [extras/courses](extras/courses.md), [extras/readings](extras/rea
     - [Forum Europaeum (Pan-European politics and debate)](https://discord.me/feu)
     - [Volt Europa (Progressive pan-European movement)](https://discord.gg/volt)
 - You can also interact through [GitHub issues](https://github.com/hocbigg/european-studies/issues). If there is a problem with a course, or a change needs to be made to the curriculum, this is the place to start the conversation. Read more [here](/CONTRIBUTING.html).
-- Join our Discord server (for discussions around this and other curricula): 
-    
-    [![discord link](/assets/discord.png)](https://discord.gg/KHqAv4Nvm5)
 
-# Curriculum
+## Curriculum
 
-- [European Language Proficiency](#european-language-proficiency)
-- [Foundations of European Studies](#foundations-of-european-studies)
-    - [Conceptual & Geographic Foundations](#conceptual--geographic-foundations)
-- [Historical Foundations of Europe](#historical-foundations-of-europe)
-    - [Ancient and Medieval Europe](#ancient-and-medieval-europe)
-    - [Early Modern to Modern Europe](#early-modern-to-modern-europe)
-    - [Contemporary Europe](#contemporary-europe)
-- [European Politics and Governance](#european-politics-and-governance)
-    - [National and Comparative Politics](#national-and-comparative-politics)
-    - [European Union Studies](#european-union-studies)
-- [European Economies and Political Economy](#european-economies-and-political-economy)
-- [European Cultures, Ideas, and Society](#european-cultures-ideas-and-society)
+### The Idea of Europe
 
-## How to use this curriculum
+Critical examination of the historical, philosophical, and cultural definitions of "Europe" from antiquity through the Enlightenment to modern integration.
 
-Study these sections in this order:
+[The Idea of Europe: From Antiquity to the European Union (Anthony Pagden, ed.)](https://books.google.com/books?isbn=9780521795524) - Serves as the primary theoretical text, bringing together leading historians and philosophers to trace the evolving conceptual boundaries of Europe.
 
-**Foundations of European Studies**: Start here. This section gives you the basic conceptual tools, vocabulary, and geographic framework you need before anything else.
+[European Culture and Politics (FutureLearn / University of Groningen)](https://www.futurelearn.com/courses/european-culture) - A complementary interactive course that pairs with Pagden's text by applying historical and philosophical concepts of Europe to contemporary crises of identity and integration.
 
-**Historical Foundations of Europe (Chronological Core)**: Move to this section next. It builds the timeline and major turning points that explain why Europe is the way it is today. Almost everything else in the curriculum refers back to this history.
+### European Geography and Regional Diversity
 
-**European Politics and Governance**: Study this third. It shows how modern European societies organize power, make decisions, and cooperate (especially through the European Union and its legal order). This section ties the history to the present-day political reality.
+Survey of the physical landscapes, human geography, regional divisions, and border evolutions that define the European continent.
 
-**European Economies and Political Economy**: Money, markets, economic integration, the euro, varieties of European capitalism, and welfare state models.
+[The European Culture Area: A Systematic Geography (Alexander B. Murphy et al.)](https://archive.org/details/europeanculturea0000murp) - A comprehensive foundational study examining Europe's regional patterns, linguistic and religious distributions, and spatial transformations.
 
-**European Cultures, Ideas, and Society**: Art, political and intellectual thought, identity, migration, media, and the everyday cultural life of Europeans.
+### Classical and Medieval Foundations of Europe
 
-## European Language Proficiency
+Exploration of the Greco-Roman, Christian, and medieval roots that crystallized Europe as a distinctive institutional, legal, and cultural space.
 
-Continuous study of **one modern European language** (French, German, Spanish, Italian, etc.), progressing from beginner to advanced (CEFR A1 → B2/C1). This runs alongside all stages.
+[HIST 210: The Early Middle Ages, 284–1000 (Yale Open Courses / Paul Freedman)](https://oyc.yale.edu/history/hist-210) - Complete video lecture series providing the chronological narrative foundation for how late Roman institutions, Christianity, and Germanic kingdoms merged.
 
-## Foundations of European Studies
+[The Inheritance of Rome: Illuminating the Dark Ages 400–1000 (Chris Wickham)](https://archive.org/details/inheritanceofrom0000wick) - An in-depth reading alternative to the HIST 210 lectures, offering a granular structural and economic history of the post-Roman successor states.
 
-### Conceptual & Geographic Foundations
+[The Making of Europe: Conquest, Colonization and Cultural Change 950–1350 (Robert Bartlett)](https://archive.org/details/makingofeuropeco0000bart) - Follows sequentially after the early medieval studies above, examining how High Middle Ages Latin Christendom expanded and established shared legal, cultural, and urban norms across the continent.
 
-| Subject | Book/Text | Course |
-| --- | --- | --- |
-| Introduction to European Studies: The Idea of Europe | *[The Idea of Europe: From Antiquity to the European Union](https://books.google.com/books?isbn=9780521795524)* — Anthony Pagden (ed.) | **[European Culture and Politics](https://www.futurelearn.com/courses/european-culture) — FutureLearn** |
-| European Geography and Regional Diversity | *[The European Culture Area: A Systematic Geography](https://archive.org/details/europeanculturea0000murp)* — Alexander B. Murphy et al. | — |
+### Early Modern Europe (1500–1815)
 
-## Historical Foundations of Europe
+The study of state formation, the Protestant Reformation, the Westphalian state system, the Enlightenment, and the French Revolution.
 
-### Ancient and Medieval Europe
+[A History of Modern Europe: From the Renaissance to the Present, Vol. 1 (John Merriman)](https://books.google.com/books?isbn=9780393934335) - The core reading text for the period, offering comprehensive narrative coverage from the Renaissance through the Napoleonic wars.
 
-| Subject | Book/Text | Course |
-| --- | --- | --- |
-| Ancient European Foundations | **[World History, Volume 1](https://openstax.org/details/books/world-history-volume-1) — OpenStax (Ancient Europe sections)** | **[Yale Open Courses — CLCV 205: Introduction to Ancient Greek History](https://oyc.yale.edu/classics/clcv-205)** |
-| Early Medieval Europe (c. 284–1000) | *[The Inheritance of Rome: Illuminating the Dark Ages 400–1000](https://archive.org/details/inheritanceofrom0000wick)* — Chris Wickham | **[Yale Open Courses — HIST 210: Early Middle Ages](https://oyc.yale.edu/history/hist-210)** |
-| High Medieval and Renaissance Europe | *[The Making of Europe: Conquest, Colonization and Cultural Change 950–1350](https://archive.org/details/makingofeuropeco0000bart)* — Robert Bartlett | — |
+[HIST 202: European Civilization, 1648–1945 (Yale Open Courses / John Merriman)](https://oyc.yale.edu/history/hist-202) - A complementary lecture series taught by the textbook's author that reinforces the major political upheavals and social transformations from the Peace of Westphalia onward.
 
-### Early Modern to Modern Europe
+### Modern Europe (1815–1945)
 
-| Subject | Book/Text | Course |
-| --- | --- | --- |
-| Early Modern Europe (1500–1815) | *[A History of Modern Europe: From the Renaissance to the Present (Vol. 1)](https://books.google.com/books?isbn=9780393934335)* — John Merriman | **[Yale Open Courses — HIST 202: European Civilization, 1648–1945](https://oyc.yale.edu/history/hist-202)** |
-| Modern Europe (1815–1945) | *[A History of Modern Europe: From the French Revolution to the Present (Vol. 2)](https://books.google.com/books?isbn=9780393924954)* — John Merriman | Continuation of HIST 202 |
+Analysis of industrialization, nationalism, the unification of great powers, imperial expansion, the World Wars, and the totalitarian collapse of the early twentieth century.
 
-### Contemporary Europe
+[A History of Modern Europe: From the French Revolution to the Present, Vol. 2 (John Merriman)](https://books.google.com/books?isbn=9780393924954) - Continues sequentially from Volume 1 as the primary text, focusing on the rise of mass politics, industrial society, and the devastating global conflicts of the twentieth century.
 
-| Subject | Book/Text | Course |
-| --- | --- | --- |
-| Europe Since 1945 | **[Postwar](https://archive.org/details/postwarhistoryof00judt) — Tony Judt** | — |
+[HIST 202: European Civilization, 1648–1945 (Yale Open Courses / John Merriman)](https://oyc.yale.edu/history/hist-202) - Complete the second half of this lecture series alongside Volume 2 to reinforce key thematic developments from the 1848 revolutions to the aftermath of World War II.
 
-## European Politics and Governance
+### Europe Since 1945
 
-### National and Comparative Politics
+Comprehensive overview of post-World War II reconstruction, Cold War division, the development of supranational institutions, and the collapse of Soviet hegemony.
 
-| Subject | Book/Text | Course |
-| --- | --- | --- |
-| Comparative European Politics: Institutions and Governance | *[European Politics: A Comparative Introduction](https://books.google.com/books?isbn=9781137581334)* — Tim Bale | — |
-| Comparative European Politics: Parties, Elections, and Representation | *[Foundations of European Politics: A New Approach for Teaching and Learning](https://books.google.com/books?isbn=9780198831303)* — Catherine E. de Vries et al. | — |
+[Postwar: A History of Europe Since 1945 (Tony Judt)](https://archive.org/details/postwarhistoryof00judt) - The definitive historical survey providing an exhaustive narrative and moral account of Western and Eastern Europe's recovery and integration after 1945.
 
-### European Union Studies
+### Comparative European Politics
 
-| Subject | Book/Text | Course |
-| --- | --- | --- |
-| History and Institutions of the EU | *[Understanding the European Union: A Concise Introduction](https://books.google.com/books?isbn=9781350311541)* — John McCormick | **[EU Policy and Implementation: Making Europe Work](https://www.coursera.org/learn/eu-policy) — Coursera** |
-| European Union Law and Legal Framework | *[EU Law: Text, Cases, and Materials](https://archive.org/details/eulawtextcasesma0000crai_v9n4)* — Paul Craig & Gráinne de Búrca | **[European Business Law: Understanding the Fundamentals](https://www.coursera.org/learn/european-law-fundamentals) — Coursera** |
-| European Union External Action and Foreign Policy | *[The Foreign Policy of the European Union](https://books.google.com/books?isbn=9780815704638)* — Federiga Bindi | **[KULeuvenX: The European Union and International Affairs](https://www.edx.org/learn/international-affairs/ku-leuven-the-european-union-and-international-affairs) — edX** |
+Comparative analysis of European democratic regimes, parliamentary institutions, electoral systems, party families, and government formation.
 
-## European Economies and Political Economy
+[European Politics: A Comparative Introduction (Tim Bale)](https://books.google.com/books?isbn=9781137581334) - A leading foundational textbook providing an accessible, institution-by-institution overview of how European governments and political systems function.
 
-| Subject | Book/Text | Course |
-| --- | --- | --- |
-| European Economic Integration | *[The Economics of European Integration](https://books.google.com/books?isbn=9781526847218)* — Richard Baldwin & Charles Wyplosz | — |
-| The Eurozone and Economic Crises | *[The Euro and the Battle of Ideas](https://books.google.com/books?isbn=9780691172927)* — Markus K. Brunnermeier, Harold James, and Jean-Pierre Landau | **[The Eurozone Crisis](https://mru.org/courses/eurozone-crisis) — Marginal Revolution University** |
-| Comparative European Political Economy and Welfare Regimes | *[Varieties of Capitalism](https://books.google.com/books?isbn=9780191530104)* — Peter A. Hall & David Soskice; and *[The Three Worlds of Welfare Capitalism](https://books.google.com/books?isbn=9780691028576)* — Gøsta Esping-Andersen | — |
+[Foundations of European Politics: A New Approach for Teaching and Learning (Catherine E. de Vries et al.)](https://books.google.com/books?isbn=9780198831303) - An alternative or advanced companion to Bale, adopting a modern analytical framework focused on voter behavior, party competition, and formal coalition bargaining.
 
-## European Cultures, Ideas, and Society
+[European Politics (MIT OpenCourseWare / Kathleen Thelen)](https://ocw.mit.edu/courses/17-561-european-politics-fall-2020/) - A complementary course syllabus and study guide that applies comparative political concepts directly to detailed country case studies, including Britain, Germany, and Scandinavian democracies.
 
-| Subject | Book/Text | Course |
-| --- | --- | --- |
-| European Intellectual History & Political Thought | *[Modern European Thought: Continuity and Change in Ideas, 1600–1950](https://archive.org/details/moderneuropeanth0000baum)* — Franklin L. Baumer | **[Yale Open Courses — PLSC 114: Introduction to Political Philosophy](https://oyc.yale.edu/political-science/plsc-114)** |
-| European Art, Media, and Representation | *[Ways of Seeing](https://books.google.com/books?isbn=9780141035796)* — John Berger | — |
-| Contemporary European Society and Migration | *European Society: A New Introduction* — William Outhwaite; and *Migration in Europe* — European Commission Joint Research Centre | — |
-| European Cultures and Identities | *[Inventing Europe: Idea, Identity, Reality](https://books.google.com/books?isbn=9780333622032)* — Gerard Delanty | **[Cultures and Identities in Europe](https://www.futurelearn.com/courses/culture-identity-europe) — FutureLearn** |
+### European Union Institutions and Governance
 
-# Code of conduct
+Introduction to the origin treaties, decision-making architecture, and policy-making procedures of the European Union.
 
-[Hocbigg's code of conduct](https://github.com/hocbigg/code-of-conduct).
+[Understanding the European Union: A Concise Introduction (John McCormick)](https://books.google.com/books?isbn=9781350311541) - The primary introductory textbook, establishing clear mental models of the EU's institutional structure, decision-making bodies, and historical treaties.
+
+[EU Policy and Implementation: Making Europe Work (Coursera / Leiden University)](https://www.coursera.org/learn/eu-policy) - A complementary applied course designed to be taken after or alongside McCormick, showing how European policies are negotiated across institutions and implemented within member states.
+
+### European Union Law
+
+Foundational principles of the EU legal order, including legal supremacy, direct effect, judicial review, and the four fundamental freedoms of the internal market.
+
+[European Business Law: Understanding the Fundamentals (Coursera / Lund University)](https://www.coursera.org/learn/european-law-fundamentals) - An accessible, video-based entry point that introduces learners to the core constitutional doctrines, sources of EU law, and internal market rights.
+
+[EU Law: Text, Cases, and Materials (Paul Craig & Gráinne de Búrca)](https://archive.org/details/eulawtextcasesma0000crai_v9n4) - Builds sequentially on the fundamentals course above, serving as the definitive academic casebook for rigorous analysis of landmark European Court of Justice rulings.
+
+### The Economics of European Integration
+
+Study of the European Single Market, customs union, common commercial policy, and the macroeconomic design of the Economic and Monetary Union.
+
+[The Economics of European Integration (Richard Baldwin & Charles Wyplosz)](https://books.google.com/books?isbn=9781526847218) - The foundational textbook for understanding both the microeconomic trade dynamics of the single market and the macroeconomic architecture of the eurozone.
+
+[The Euro and the Battle of Ideas (Markus K. Brunnermeier, Harold James, and Jean-Pierre Landau)](https://books.google.com/books?isbn=9780691172927) - A complementary intellectual and political economy study that enriches Baldwin & Wyplosz by analyzing how conflicting German ordoliberal and French Keynesian economic philosophies shaped the Eurozone crisis.
+
+### Comparative European Political Economy
+
+Analysis of differing models of European capitalism, industrial relations, labor market structures, and welfare state configurations.
+
+[The Three Worlds of Welfare Capitalism (Gøsta Esping-Andersen)](https://books.google.com/books?isbn=9780691028576) - The core text on the social protection side of political economy, establishing the classic tripartite typology of Liberal, Corporatist-Statist, and Social Democratic welfare regimes.
+
+[Varieties of Capitalism: The Institutional Foundations of Comparative Advantage (Peter A. Hall & David Soskice, eds.)](https://books.google.com/books?isbn=9780191530104) - Complements Esping-Andersen by examining the production and firm-level side of European economies, distinguishing between Liberal and Coordinated Market systems.
+
+### European Intellectual History and Political Thought
+
+Development of core European philosophical traditions and political doctrines, from early modern political theory through the Enlightenment to twentieth-century social democracy and human rights.
+
+[PLSC 114: Introduction to Political Philosophy (Yale Open Courses / Steven B. Smith)](https://oyc.yale.edu/political-science/plsc-114) - Foundational video lectures introducing the seminal European political thinkers whose ideas shaped modern states, including Machiavelli, Hobbes, Locke, Rousseau, and Marx.
+
+[Modern European Thought: Continuity and Change in Ideas, 1600–1950 (Franklin L. Baumer)](https://archive.org/details/moderneuropeanth0000baum) - A complementary primary-source reader that broadens Smith's political philosophy focus to encompass the major cultural, scientific, and intellectual currents of the modern European mind.
+
+### Contemporary European Society and Identity
+
+Sociological analysis of European social models, demographic shifts, migration patterns, multiculturalism, and the contested nature of European versus national identity.
+
+[European Society (William Outhwaite)](https://books.google.com/books?isbn=9780745613321) - The primary sociological textbook examining whether a unified European society exists across contemporary social structures, class, migration, and welfare systems.
+
+[Inventing Europe: Idea, Identity, Reality (Gerard Delanty)](https://books.google.com/books?isbn=9780333622032) - A complementary cultural-sociological study focusing on the historical invention and shifting boundaries of European collective identity.
+
+[Cultures and Identities in Europe (FutureLearn / European University Institute)](https://www.futurelearn.com/courses/culture-identity-europe) - A practical multimedia companion course that illustrates the concepts discussed in Outhwaite and Delanty through case studies on European memory, cultural heritage, and migration.
