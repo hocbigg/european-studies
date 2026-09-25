@@ -5,11 +5,29 @@ description: Path to a free self-taught education in European Studies!
 
 ## Introduction
 
-This roadmap is designed to provide a university-level foundation in **European Studies**, an interdisciplinary field combining history, politics, culture, economics, languages, and international relations with a focus on Europe and the European Union.
+European Studies is an interdisciplinary field that examines Europe's political, legal, economic, and cultural systems, with a particular focus on modern democratic governance and the unique experiment of European integration. Rather than treating Europe merely as a collection of separate nation-states or an abstract landmass, the discipline investigates how shared historical trauma, competing ideologies, economic interdependencies, and evolving legal frameworks have shaped a distinct continental space.
 
-**[How to contribute](/CONTRIBUTING.html)**
+This curriculum is designed for self-directed learners seeking a rigorous, undergraduate-level foundation in European Studies. It assumes no formal background in political science, economics, or modern history.
 
-## Communities
+### How to Navigate This Curriculum
+
+The thirteen core subjects in this curriculum are sequenced to mirror the natural progression of an undergraduate degree. To build durable mental models, work through them in thematic stages:
+
+- **Conceptual and Spatial Foundations:** Begin with *The Idea of Europe* and *European Geography and Regional Diversity*. These establish the contested definitions of "Europe" and provide the physical and human geography needed to understand regional divides.
+- **The Historical Spine:** Proceed through the four history subjects chronologically, from *Classical and Medieval Foundations of Europe* through *Early Modern Europe (1500–1815)*, *Modern Europe (1815–1945)*, and *Europe Since 1945*. Modern European institutions cannot be understood without the historical context of state formation, total war, totalitarianism, and post-1945 reconstruction.
+- **Governance and Law:** After completing the historical baseline, study domestic systems in *Comparative European Politics* before moving to supranational governance in *European Union Institutions and Governance*. Follow this directly with *European Union Law*, as legal doctrines like direct effect and supremacy build on the institutional mechanics of the treaties.
+- **Political Economy and Contemporary Society:** With the historical, political, and legal frameworks established, the remaining modules can be approached more flexibly. *The Economics of European Integration* and *Comparative European Political Economy* explore trade, the single currency, and varieties of welfare capitalism. *European Intellectual History and Political Thought* and *Contemporary European Society and Identity* address the philosophical movements, migration dynamics, and cultural questions defining Europe today.
+
+### Scope
+
+This curriculum focuses strictly on the foundational core that every student of European Studies needs to master. It intentionally leaves out advanced subfields such as common foreign and security policy, accession diplomacy, sector-specific regulatory law, and detailed single-country ethnographies.
+
+Once you have completed this foundational sequence, you can broaden and apply your knowledge across the other tracks in this series:
+
+- Deepen your theoretical grounding with seminal monographs and field-shaping papers in [Readings](extras/readings.md).
+- Supplement your study with advanced university lectures and thematic deep-dives in [Courses](extras/courses.md).
+
+### Communities
 
 - Subreddits:
     - [r/europe](https://www.reddit.com/r/europe/)
