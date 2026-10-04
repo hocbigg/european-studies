@@ -1,309 +1,416 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
 
-<title>Hocbigg - European Studies</title>
-<link rel="stylesheet" href="/european-studies/style.css">
-<meta name="description" content="Path to a free self-taught education in European Studies!">
+  <title>Hocbigg - European Studies</title>
+  <meta name="description" content="Path to a free self-taught education in European Studies!">
+  <meta name="author" content="hocbigg">
 
-<link rel="canonical" href="https://hocbigg.github.io/european-studies/">
+  <link rel="canonical" href="https://hocbigg.github.io/european-studies/">
+  <meta property="og:title" content="Hocbigg - European Studies">
+  <meta property="og:description" content="Path to a free self-taught education in European Studies!">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hocbigg.github.io/european-studies/">
+  <link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
 
-<meta property="og:title" content="Hocbigg - European Studies">
-<meta property="og:description" content="Path to a free self-taught education in European Studies!">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://hocbigg.github.io/european-studies/">
-<meta name="author" content="hocbigg">
-<link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
+  <style>
+:root {
+  color-scheme: light dark;
+
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #595959;
+  --border: #e0e0e0;
+  --th-bg: #f6f8fa;
+  --code-bg: #f4f4f4;
+  --link: #0969da;
+  --focus-ring: #0969da;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1117;
+    --fg: #e6edf3;
+    --muted: #8b949e;
+    --border: #30363d;
+    --th-bg: #161b22;
+    --code-bg: #161b22;
+    --link: #58a6ff;
+    --focus-ring: #58a6ff;
+  }
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1.5rem auto;
+  max-width: 60rem;
+  padding: 0 1rem 3.5rem;
+  background-color: var(--bg);
+  color: var(--fg);
+  font: 1.15rem/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  
+  /* Cú pháp hiện đại thay thế cho word-wrap */
+  overflow-wrap: break-word;
+}
+
+.site-header {
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1rem;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 0.5rem 1.25rem;
+  font-size: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+nav a:hover, 
+nav a:focus-visible {
+  color: var(--fg);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+nav .nav-brand {
+  color: var(--fg);
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.skip-link {
+  position: absolute;
+  transform: translateY(-150%);
+  left: 1rem;
+  background: var(--fg);
+  color: var(--bg);
+  padding: 0.5rem 1rem;
+  z-index: 100;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+  transition: transform 0.2s ease;
+}
+
+.skip-link:focus {
+  transform: translateY(1rem);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: var(--fg);
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--border);
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1.15rem;
+}
+
+h6 {
+  font-size: 1rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+p, ul, ol, blockquote, table {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+li > ul,
+li > ol {
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+a:has(img) {
+  text-decoration: none;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.page-header .page-subtitle {
+  color: var(--muted);
+  font-size: 1.15rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page-header img {
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.875em;
+  background-color: var(--code-bg);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+
+pre {
+  background-color: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem;
+  overflow-x: auto;
+  tab-size: 2;
+}
+
+pre code {
+  background: transparent;
+  padding: 0;
+  border: none;
+  font-size: 0.9rem;
+  border-radius: 0;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.6rem 0.75rem;
+  vertical-align: top;
+}
+
+th {
+  background-color: var(--th-bg);
+  font-weight: 600;
+}
+
+blockquote {
+  margin-inline: 0;
+  border-left: 4px solid var(--border);
+  padding-left: 1rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media print {
+  body {
+    max-width: none;
+    color: #000;
+    background: #fff;
+  }
+  .skip-link, nav {
+    display: none;
+  }
+}
+  </style>
 </head>
-
 <body>
 
-<nav>
-<a href="/">Hocbigg</a>
-<a href="/european-studies/">European-Studies</a>
-<a href="/european-studies/extras/courses.html">Extra Courses</a>
-<a href="/european-studies/extras/readings.html">Extra Reading</a>
-<a href="https://github.com/hocbigg/european-studies/" target="_blank">View on Github</a>
-</nav>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
 
-<main>
-<article>
+  <header class="site-header">
+    <nav aria-label="Main Navigation">
+    <ul>
+      <li><a href="https://hocbigg.github.io/" class="nav-brand">Hocbigg</a></li>
+      <li><a href="/european-studies/">European Studies</a></li>
+      <li><a href="/european-studies/extras/readings.html">Extra Readings</a></li>
+      <li><a href="/european-studies/extras/courses.html">Extra Courses</a></li>
+      <li><a href="https://github.com/hocbigg/european-studies" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (opens in new tab)</span></a></li>
+    </ul>
+    </nav>
+  </header>
 
+  <main id="main-content">
+    <article>
 <header class="page-header">
-  <img src="/images/logo.png" alt="">
+  <img src="/images/logo.png" alt="Hocbigg logo">
   <h1>Hocbigg - European Studies</h1>
+  <p class="page-subtitle">Path to a free self-taught education in European Studies!</p>
+  <p class="last-updated"><small>Last updated on: <time datetime="2026-09-21">2026-09-21</time></small></p>
 </header>
-
-<h1 id="contents">Contents</h1>
+<h2 id="introduction">Introduction</h2>
+<p>European Studies is an interdisciplinary field that examines Europe's political, legal, economic, and cultural systems, with a particular focus on modern democratic governance and the unique experiment of European integration. Rather than treating Europe merely as a collection of separate nation-states or an abstract landmass, the discipline investigates how shared historical trauma, competing ideologies, economic interdependencies, and evolving legal frameworks have shaped a distinct continental space.</p>
+<p>This curriculum is designed for self-directed learners seeking a rigorous, undergraduate-level foundation in European Studies. It assumes no formal background in political science, economics, or modern history.</p>
+<h3 id="how-to-navigate-this-curriculum">How to Navigate This Curriculum</h3>
+<p>The thirteen core subjects in this curriculum are sequenced to mirror the natural progression of an undergraduate degree. To build durable mental models, work through them in thematic stages:</p>
 <ul>
-<li><a href="#summary">Summary</a></li>
-<li><a href="#communities">Communities</a></li>
-<li><a href="#curriculum">Curriculum</a></li>
-<li><a href="#code-of-conduct">Code of conduct</a></li>
+<li><strong>Conceptual and Spatial Foundations:</strong> Begin with <em>The Idea of Europe</em> and <em>European Geography and Regional Diversity</em>. These establish the contested definitions of "Europe" and provide the physical and human geography needed to understand regional divides.</li>
+<li><strong>The Historical Spine:</strong> Proceed through the four history subjects chronologically, from <em>Classical and Medieval Foundations of Europe</em> through <em>Early Modern Europe (1500–1815)</em>, <em>Modern Europe (1815–1945)</em>, and <em>Europe Since 1945</em>. Modern European institutions cannot be understood without the historical context of state formation, total war, totalitarianism, and post-1945 reconstruction.</li>
+<li><strong>Governance and Law:</strong> After completing the historical baseline, study domestic systems in <em>Comparative European Politics</em> before moving to supranational governance in <em>European Union Institutions and Governance</em>. Follow this directly with <em>European Union Law</em>, as legal doctrines like direct effect and supremacy build on the institutional mechanics of the treaties.</li>
+<li><strong>Political Economy and Contemporary Society:</strong> With the historical, political, and legal frameworks established, the remaining modules can be approached more flexibly. <em>The Economics of European Integration</em> and <em>Comparative European Political Economy</em> explore trade, the single currency, and varieties of welfare capitalism. <em>European Intellectual History and Political Thought</em> and <em>Contemporary European Society and Identity</em> address the philosophical movements, migration dynamics, and cultural questions defining Europe today.</li>
 </ul>
-<h1 id="summary">Summary</h1>
-<p>This roadmap is designed to provide a university-level foundation in <strong>European Studies</strong>, an interdisciplinary field combining history, politics, culture, economics, languages, and international relations with a focus on Europe and the European Union.</p>
-<p>Note: When there are courses or books that don't fit into the curriculum but are otherwise of high quality,
-they belong in <a href="extras/courses.html">extras/courses</a>, <a href="extras/readings.html">extras/readings</a>.</p>
-<p><strong><a href="/CONTRIBUTING.html">How to contribute</a></strong></p>
-<h1 id="communities">Communities</h1>
+<h3 id="scope">Scope</h3>
+<p>This curriculum focuses strictly on the foundational core that every student of European Studies needs to master. It intentionally leaves out advanced subfields such as common foreign and security policy, accession diplomacy, sector-specific regulatory law, and detailed single-country ethnographies.</p>
+<p>Once you have completed this foundational sequence, you can broaden and apply your knowledge across the other tracks in this series:</p>
+<ul>
+<li>Deepen your theoretical grounding with seminal monographs and field-shaping papers in <a href="extras/readings.html">Readings</a>.</li>
+<li>Supplement your study with advanced university lectures and thematic deep-dives in <a href="extras/courses.html">Courses</a>.</li>
+</ul>
+<h3 id="communities">Communities</h3>
 <ul>
 <li>Subreddits:<ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.reddit.com/r/europe/">r/europe</a></li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.reddit.com/r/AskEurope/">r/AskEurope</a></li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.reddit.com/r/EuropeanFederalists/">r/EuropeanFederalists</a></li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.reddit.com/r/europeanunion/">r/europeanunion</a></li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.reddit.com/r/Europeans/">r/Europeans</a></li>
+<li><a href="https://www.reddit.com/r/europe/" target="_blank" rel="noopener noreferrer">r/europe</a></li>
+<li><a href="https://www.reddit.com/r/AskEurope/" target="_blank" rel="noopener noreferrer">r/AskEurope</a></li>
+<li><a href="https://www.reddit.com/r/EuropeanFederalists/" target="_blank" rel="noopener noreferrer">r/EuropeanFederalists</a></li>
+<li><a href="https://www.reddit.com/r/europeanunion/" target="_blank" rel="noopener noreferrer">r/europeanunion</a></li>
+<li><a href="https://www.reddit.com/r/Europeans/" target="_blank" rel="noopener noreferrer">r/Europeans</a></li>
 </ul>
 </li>
 <li>Discord servers:<ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://discord.gg/WzsgwHmHvY">r/Europe Official Discord</a></li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://discord.me/feu">Forum Europaeum (Pan-European politics and debate)</a></li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://discord.gg/volt">Volt Europa (Progressive pan-European movement)</a></li>
+<li><a href="https://discord.gg/WzsgwHmHvY" target="_blank" rel="noopener noreferrer">r/Europe Official Discord</a></li>
+<li><a href="https://discord.me/feu" target="_blank" rel="noopener noreferrer">Forum Europaeum (Pan-European politics and debate)</a></li>
+<li><a href="https://discord.gg/volt" target="_blank" rel="noopener noreferrer">Volt Europa (Progressive pan-European movement)</a></li>
 </ul>
 </li>
-<li>You can also interact through <a target="_blank" rel="noopener noreferrer" href="https://github.com/hocbigg/european-studies/issues">GitHub issues</a>. If there is a problem with a course, or a change needs to be made to the curriculum, this is the place to start the conversation. Read more <a href="/CONTRIBUTING.html">here</a>.</li>
-<li>
-<p>Join our Discord server (for discussions around this and other curricula): </p>
-<p><a target="_blank" rel="noopener noreferrer" href="https://discord.gg/KHqAv4Nvm5"><img alt="discord link" src="/assets/discord.png" /></a></p>
-</li>
+<li>You can also interact through <a href="https://github.com/hocbigg/european-studies/issues" target="_blank" rel="noopener noreferrer">GitHub issues</a>. If there is a problem with a course, or a change needs to be made to the curriculum, this is the place to start the conversation. Read more <a href="/CONTRIBUTING.html">here</a>.</li>
 </ul>
-<h1 id="curriculum">Curriculum</h1>
-<ul>
-<li><a href="#european-language-proficiency">European Language Proficiency</a></li>
-<li><a href="#foundations-of-european-studies">Foundations of European Studies</a><ul>
-<li><a href="#conceptual--geographic-foundations">Conceptual &amp; Geographic Foundations</a></li>
-</ul>
-</li>
-<li><a href="#historical-foundations-of-europe">Historical Foundations of Europe</a><ul>
-<li><a href="#ancient-and-medieval-europe">Ancient and Medieval Europe</a></li>
-<li><a href="#early-modern-to-modern-europe">Early Modern to Modern Europe</a></li>
-<li><a href="#contemporary-europe">Contemporary Europe</a></li>
-</ul>
-</li>
-<li><a href="#european-politics-and-governance">European Politics and Governance</a><ul>
-<li><a href="#national-and-comparative-politics">National and Comparative Politics</a></li>
-<li><a href="#european-union-studies">European Union Studies</a></li>
-</ul>
-</li>
-<li><a href="#european-economies-and-political-economy">European Economies and Political Economy</a></li>
-<li><a href="#european-cultures-ideas-and-society">European Cultures, Ideas, and Society</a></li>
-</ul>
-<h2 id="how-to-use-this-curriculum">How to use this curriculum</h2>
-<p>Study these sections in this order:</p>
-<p><strong>Foundations of European Studies</strong>: Start here. This section gives you the basic conceptual tools, vocabulary, and geographic framework you need before anything else.</p>
-<p><strong>Historical Foundations of Europe (Chronological Core)</strong>: Move to this section next. It builds the timeline and major turning points that explain why Europe is the way it is today. Almost everything else in the curriculum refers back to this history.</p>
-<p><strong>European Politics and Governance</strong>: Study this third. It shows how modern European societies organize power, make decisions, and cooperate (especially through the European Union). This section ties the history to the present-day political reality.</p>
-<p><strong>European Economies and Political Economy</strong>: Money, markets, economic crises, the euro, or how economic forces shape European politics and society. </p>
-<p><strong>European Cultures, Ideas, and Society</strong>: Art, literature, philosophy, identity, migration, media, or the everyday cultural life of Europeans. </p>
-<h2 id="european-language-proficiency">European Language Proficiency</h2>
-<p>Continuous study of <strong>one modern European language</strong> (French, German, Spanish, Italian, etc.), progressing from beginner to advanced (CEFR A1 → B2/C1). This runs alongside all stages.</p>
-<h2 id="foundations-of-european-studies">Foundations of European Studies</h2>
-<h3 id="conceptual-geographic-foundations">Conceptual &amp; Geographic Foundations</h3>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Book/Text</th>
-<th>Course</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Introduction to European Studies</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/europehistory00davi_0">Europe: A History</a> — Norman Davies (Archive.org PDF)</strong></td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://www.futurelearn.com/courses/european-culture">European Culture and Politics</a> — FutureLearn</strong></td>
-</tr>
-<tr>
-<td>European Geography and Regional Diversity</td>
-<td><em>Europe: Geography &amp; Society</em> — University of Colorado (open lecture notes)</td>
-<td>—</td>
-</tr>
-</tbody>
-</table>
-<h2 id="historical-foundations-of-europe">Historical Foundations of Europe</h2>
-<h3 id="ancient-and-medieval-europe">Ancient and Medieval Europe</h3>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Book/Text</th>
-<th>Course</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Ancient European Foundations</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://openstax.org/details/books/world-history-volume-1">World History, Volume 1</a> — OpenStax (Ancient Europe sections)</strong></td>
-<td>—</td>
-</tr>
-<tr>
-<td>Early Medieval Europe (c. 284–1000)</td>
-<td>—</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://oyc.yale.edu/history/hist-210">Yale Open Courses — HIST 210: Early Middle Ages</a></strong></td>
-</tr>
-<tr>
-<td>High Medieval and Renaissance Europe</td>
-<td><em>The Making of Europe</em> — Robert Bartlett (authoritative text)</td>
-<td>—</td>
-</tr>
-</tbody>
-</table>
-<h3 id="early-modern-to-modern-europe">Early Modern to Modern Europe</h3>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Book/Text</th>
-<th>Course</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Early Modern Europe (1500–1815)</td>
-<td><em>A History of Modern Europe</em> — John Merriman</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://oyc.yale.edu/history/hist-202">Yale Open Courses — HIST 202: European Civilization, 1648–1945</a></strong></td>
-</tr>
-<tr>
-<td>Modern Europe (1815–1945)</td>
-<td>—</td>
-<td>Continuation of HIST 202</td>
-</tr>
-</tbody>
-</table>
-<h3 id="contemporary-europe">Contemporary Europe</h3>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Book/Text</th>
-<th>Course</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Europe Since 1945</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/postwarhistoryof00judt">Postwar</a> — Tony Judt</strong></td>
-<td>—</td>
-</tr>
-</tbody>
-</table>
-<h2 id="european-politics-and-governance">European Politics and Governance</h2>
-<h3 id="national-and-comparative-politics">National and Comparative Politics</h3>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Book/Text</th>
-<th>Course</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Introduction to European Political Systems</td>
-<td><em>European Politics: A Comparative Introduction</em> — Tim Bale</td>
-<td>—</td>
-</tr>
-<tr>
-<td>Comparative European Politics</td>
-<td><em>Foundations of European Politics</em> — de Vries et al.</td>
-<td>—</td>
-</tr>
-</tbody>
-</table>
-<h3 id="european-union-studies">European Union Studies</h3>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Book/Text</th>
-<th>Course</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>History and Institutions of the EU</td>
-<td><em>Understanding the European Union</em> — John McCormick</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/learn/eu-policy">EU Policy and Implementation: Making Europe Work</a> — Coursera</strong></td>
-</tr>
-<tr>
-<td>EU Policies and External Relations</td>
-<td><em>The Foreign Policy of the European Union</em> — Federiga Bindi</td>
-<td>—</td>
-</tr>
-<tr>
-<td>Europe in Global Affairs</td>
-<td><em>The European Union as a Global Actor</em> — Bretherton &amp; Vogler</td>
-<td>—</td>
-</tr>
-</tbody>
-</table>
-<h2 id="european-economies-and-political-economy">European Economies and Political Economy</h2>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Book/Text</th>
-<th>Course</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>European Economic Integration</td>
-<td><em>The Economics of European Integration</em> — Baldwin &amp; Wyplosz</td>
-<td>—</td>
-</tr>
-<tr>
-<td>The Eurozone and Economic Crises</td>
-<td><em>The Euro and the Battle of Ideas</em> — Brunnermeier et al.</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://mru.org/courses/eurozone-crisis">The Eurozone Crisis</a> — Marginal Revolution University</strong></td>
-</tr>
-<tr>
-<td>Globalization and Europe</td>
-<td><em>And the Weak Suffer What They Must?</em> — Yanis Varoufakis</td>
-<td>—</td>
-</tr>
-</tbody>
-</table>
-<h2 id="european-cultures-ideas-and-society">European Cultures, Ideas, and Society</h2>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Book/Text</th>
-<th>Course</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>European Intellectual History</td>
-<td>Yale Open Courses — HIST 202 (intellectual themes)</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://oyc.yale.edu/english/engl-300">Introduction to Theory of Literature</a> — Open Yale</strong></td>
-</tr>
-<tr>
-<td>European Art, Media, and Representation</td>
-<td><em>Ways of Seeing</em> — John Berger</td>
-<td>—</td>
-</tr>
-<tr>
-<td>Contemporary European Society and Migration</td>
-<td><em>Migration in Europe</em> — European Commission Joint Research Centre (open-access)</td>
-<td>—</td>
-</tr>
-<tr>
-<td>European Cultures and Identities</td>
-<td>—</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://www.futurelearn.com/courses/culture-identity-europe">Cultures and Identities in Europe</a> — FutureLearn</strong></td>
-</tr>
-</tbody>
-</table>
-<h1 id="code-of-conduct">Code of conduct</h1>
-<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/hocbigg/code-of-conduct">Hocbigg's code of conduct</a>.</p>
-</article>
-</main>
+<h2 id="curriculum">Curriculum</h2>
+<h3 id="the-idea-of-europe">The Idea of Europe</h3>
+<p>Critical examination of the historical, philosophical, and cultural definitions of "Europe" from antiquity through the Enlightenment to modern integration.</p>
+<p><a href="https://books.google.com/books?isbn=9780521795524" target="_blank" rel="noopener noreferrer">The Idea of Europe: From Antiquity to the European Union (Anthony Pagden, ed.)</a> - Serves as the primary theoretical text, bringing together leading historians and philosophers to trace the evolving conceptual boundaries of Europe.</p>
+<p><a href="https://www.futurelearn.com/courses/european-culture" target="_blank" rel="noopener noreferrer">European Culture and Politics (FutureLearn / University of Groningen)</a> - A complementary interactive course that pairs with Pagden's text by applying historical and philosophical concepts of Europe to contemporary crises of identity and integration.</p>
+<h3 id="european-geography-and-regional-diversity">European Geography and Regional Diversity</h3>
+<p>Survey of the physical landscapes, human geography, regional divisions, and border evolutions that define the European continent.</p>
+<p><a href="https://archive.org/details/europeanculturea0000murp" target="_blank" rel="noopener noreferrer">The European Culture Area: A Systematic Geography (Alexander B. Murphy et al.)</a> - A comprehensive foundational study examining Europe's regional patterns, linguistic and religious distributions, and spatial transformations.</p>
+<h3 id="classical-and-medieval-foundations-of-europe">Classical and Medieval Foundations of Europe</h3>
+<p>Exploration of the Greco-Roman, Christian, and medieval roots that crystallized Europe as a distinctive institutional, legal, and cultural space.</p>
+<p><a href="https://oyc.yale.edu/history/hist-210" target="_blank" rel="noopener noreferrer">HIST 210: The Early Middle Ages, 284–1000 (Yale Open Courses / Paul Freedman)</a> - Complete video lecture series providing the chronological narrative foundation for how late Roman institutions, Christianity, and Germanic kingdoms merged.</p>
+<p><a href="https://archive.org/details/inheritanceofrom0000wick" target="_blank" rel="noopener noreferrer">The Inheritance of Rome: Illuminating the Dark Ages 400–1000 (Chris Wickham)</a> - An in-depth reading alternative to the HIST 210 lectures, offering a granular structural and economic history of the post-Roman successor states.</p>
+<p><a href="https://archive.org/details/makingofeuropeco0000bart" target="_blank" rel="noopener noreferrer">The Making of Europe: Conquest, Colonization and Cultural Change 950–1350 (Robert Bartlett)</a> - Follows sequentially after the early medieval studies above, examining how High Middle Ages Latin Christendom expanded and established shared legal, cultural, and urban norms across the continent.</p>
+<h3 id="early-modern-europe-15001815">Early Modern Europe (1500–1815)</h3>
+<p>The study of state formation, the Protestant Reformation, the Westphalian state system, the Enlightenment, and the French Revolution.</p>
+<p><a href="https://books.google.com/books?isbn=9780393934335" target="_blank" rel="noopener noreferrer">A History of Modern Europe: From the Renaissance to the Present, Vol. 1 (John Merriman)</a> - The core reading text for the period, offering comprehensive narrative coverage from the Renaissance through the Napoleonic wars.</p>
+<p><a href="https://oyc.yale.edu/history/hist-202" target="_blank" rel="noopener noreferrer">HIST 202: European Civilization, 1648–1945 (Yale Open Courses / John Merriman)</a> - A complementary lecture series taught by the textbook's author that reinforces the major political upheavals and social transformations from the Peace of Westphalia onward.</p>
+<h3 id="modern-europe-18151945">Modern Europe (1815–1945)</h3>
+<p>Analysis of industrialization, nationalism, the unification of great powers, imperial expansion, the World Wars, and the totalitarian collapse of the early twentieth century.</p>
+<p><a href="https://books.google.com/books?isbn=9780393924954" target="_blank" rel="noopener noreferrer">A History of Modern Europe: From the French Revolution to the Present, Vol. 2 (John Merriman)</a> - Continues sequentially from Volume 1 as the primary text, focusing on the rise of mass politics, industrial society, and the devastating global conflicts of the twentieth century.</p>
+<p><a href="https://oyc.yale.edu/history/hist-202" target="_blank" rel="noopener noreferrer">HIST 202: European Civilization, 1648–1945 (Yale Open Courses / John Merriman)</a> - Complete the second half of this lecture series alongside Volume 2 to reinforce key thematic developments from the 1848 revolutions to the aftermath of World War II.</p>
+<h3 id="europe-since-1945">Europe Since 1945</h3>
+<p>Comprehensive overview of post-World War II reconstruction, Cold War division, the development of supranational institutions, and the collapse of Soviet hegemony.</p>
+<p><a href="https://archive.org/details/postwarhistoryof00judt" target="_blank" rel="noopener noreferrer">Postwar: A History of Europe Since 1945 (Tony Judt)</a> - The definitive historical survey providing an exhaustive narrative and moral account of Western and Eastern Europe's recovery and integration after 1945.</p>
+<h3 id="comparative-european-politics">Comparative European Politics</h3>
+<p>Comparative analysis of European democratic regimes, parliamentary institutions, electoral systems, party families, and government formation.</p>
+<p><a href="https://books.google.com/books?isbn=9781137581334" target="_blank" rel="noopener noreferrer">European Politics: A Comparative Introduction (Tim Bale)</a> - A leading foundational textbook providing an accessible, institution-by-institution overview of how European governments and political systems function.</p>
+<p><a href="https://books.google.com/books?isbn=9780198831303" target="_blank" rel="noopener noreferrer">Foundations of European Politics: A New Approach for Teaching and Learning (Catherine E. de Vries et al.)</a> - An alternative or advanced companion to Bale, adopting a modern analytical framework focused on voter behavior, party competition, and formal coalition bargaining.</p>
+<p><a href="https://ocw.mit.edu/courses/17-561-european-politics-fall-2020/" target="_blank" rel="noopener noreferrer">European Politics (MIT OpenCourseWare / Kathleen Thelen)</a> - A complementary course syllabus and study guide that applies comparative political concepts directly to detailed country case studies, including Britain, Germany, and Scandinavian democracies.</p>
+<h3 id="european-union-institutions-and-governance">European Union Institutions and Governance</h3>
+<p>Introduction to the origin treaties, decision-making architecture, and policy-making procedures of the European Union.</p>
+<p><a href="https://books.google.com/books?isbn=9781350311541" target="_blank" rel="noopener noreferrer">Understanding the European Union: A Concise Introduction (John McCormick)</a> - The primary introductory textbook, establishing clear mental models of the EU's institutional structure, decision-making bodies, and historical treaties.</p>
+<p><a href="https://www.coursera.org/learn/eu-policy" target="_blank" rel="noopener noreferrer">EU Policy and Implementation: Making Europe Work (Coursera / Leiden University)</a> - A complementary applied course designed to be taken after or alongside McCormick, showing how European policies are negotiated across institutions and implemented within member states.</p>
+<h3 id="european-union-law">European Union Law</h3>
+<p>Foundational principles of the EU legal order, including legal supremacy, direct effect, judicial review, and the four fundamental freedoms of the internal market.</p>
+<p><a href="https://www.coursera.org/learn/european-law-fundamentals" target="_blank" rel="noopener noreferrer">European Business Law: Understanding the Fundamentals (Coursera / Lund University)</a> - An accessible, video-based entry point that introduces learners to the core constitutional doctrines, sources of EU law, and internal market rights.</p>
+<p><a href="https://archive.org/details/eulawtextcasesma0000crai_v9n4" target="_blank" rel="noopener noreferrer">EU Law: Text, Cases, and Materials (Paul Craig &amp; Gráinne de Búrca)</a> - Builds sequentially on the fundamentals course above, serving as the definitive academic casebook for rigorous analysis of landmark European Court of Justice rulings.</p>
+<h3 id="the-economics-of-european-integration">The Economics of European Integration</h3>
+<p>Study of the European Single Market, customs union, common commercial policy, and the macroeconomic design of the Economic and Monetary Union.</p>
+<p><a href="https://books.google.com/books?isbn=9781526847218" target="_blank" rel="noopener noreferrer">The Economics of European Integration (Richard Baldwin &amp; Charles Wyplosz)</a> - The foundational textbook for understanding both the microeconomic trade dynamics of the single market and the macroeconomic architecture of the eurozone.</p>
+<p><a href="https://books.google.com/books?isbn=9780691172927" target="_blank" rel="noopener noreferrer">The Euro and the Battle of Ideas (Markus K. Brunnermeier, Harold James, and Jean-Pierre Landau)</a> - A complementary intellectual and political economy study that enriches Baldwin &amp; Wyplosz by analyzing how conflicting German ordoliberal and French Keynesian economic philosophies shaped the Eurozone crisis.</p>
+<h3 id="comparative-european-political-economy">Comparative European Political Economy</h3>
+<p>Analysis of differing models of European capitalism, industrial relations, labor market structures, and welfare state configurations.</p>
+<p><a href="https://books.google.com/books?isbn=9780691028576" target="_blank" rel="noopener noreferrer">The Three Worlds of Welfare Capitalism (Gøsta Esping-Andersen)</a> - The core text on the social protection side of political economy, establishing the classic tripartite typology of Liberal, Corporatist-Statist, and Social Democratic welfare regimes.</p>
+<p><a href="https://books.google.com/books?isbn=9780191530104" target="_blank" rel="noopener noreferrer">Varieties of Capitalism: The Institutional Foundations of Comparative Advantage (Peter A. Hall &amp; David Soskice, eds.)</a> - Complements Esping-Andersen by examining the production and firm-level side of European economies, distinguishing between Liberal and Coordinated Market systems.</p>
+<h3 id="european-intellectual-history-and-political-thought">European Intellectual History and Political Thought</h3>
+<p>Development of core European philosophical traditions and political doctrines, from early modern political theory through the Enlightenment to twentieth-century social democracy and human rights.</p>
+<p><a href="https://oyc.yale.edu/political-science/plsc-114" target="_blank" rel="noopener noreferrer">PLSC 114: Introduction to Political Philosophy (Yale Open Courses / Steven B. Smith)</a> - Foundational video lectures introducing the seminal European political thinkers whose ideas shaped modern states, including Machiavelli, Hobbes, Locke, Rousseau, and Marx.</p>
+<p><a href="https://archive.org/details/moderneuropeanth0000baum" target="_blank" rel="noopener noreferrer">Modern European Thought: Continuity and Change in Ideas, 1600–1950 (Franklin L. Baumer)</a> - A complementary primary-source reader that broadens Smith's political philosophy focus to encompass the major cultural, scientific, and intellectual currents of the modern European mind.</p>
+<h3 id="contemporary-european-society-and-identity">Contemporary European Society and Identity</h3>
+<p>Sociological analysis of European social models, demographic shifts, migration patterns, multiculturalism, and the contested nature of European versus national identity.</p>
+<p><a href="https://books.google.com/books?isbn=9780745613321" target="_blank" rel="noopener noreferrer">European Society (William Outhwaite)</a> - The primary sociological textbook examining whether a unified European society exists across contemporary social structures, class, migration, and welfare systems.</p>
+<p><a href="https://books.google.com/books?isbn=9780333622032" target="_blank" rel="noopener noreferrer">Inventing Europe: Idea, Identity, Reality (Gerard Delanty)</a> - A complementary cultural-sociological study focusing on the historical invention and shifting boundaries of European collective identity.</p>
+<p><a href="https://www.futurelearn.com/courses/culture-identity-europe" target="_blank" rel="noopener noreferrer">Cultures and Identities in Europe (FutureLearn / European University Institute)</a> - A practical multimedia companion course that illustrates the concepts discussed in Outhwaite and Delanty through case studies on European memory, cultural heritage, and migration.</p>
+    </article>
+  </main>
 
 </body>
 </html>

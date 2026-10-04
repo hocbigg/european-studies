@@ -1,121 +1,489 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
 
-<title>Great Readings</title>
-<link rel="stylesheet" href="/european-studies/style.css">
-<meta name="description" content="">
+  <title>Great Readings in European Studies</title>
+  <meta name="description" content="Great Readings in European Studies curriculum by hocbigg.">
+  <meta name="author" content="hocbigg">
 
-<link rel="canonical" href="https://hocbigg.github.io/european-studies/">
+  <link rel="canonical" href="https://hocbigg.github.io/european-studies/extras/readings.html">
+  <meta property="og:title" content="Great Readings in European Studies">
+  <meta property="og:description" content="Great Readings in European Studies curriculum by hocbigg.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hocbigg.github.io/european-studies/extras/readings.html">
+  <link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
 
-<meta property="og:title" content="Great Readings">
-<meta property="og:description" content="">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://hocbigg.github.io/european-studies/">
-<meta name="author" content="hocbigg">
-<link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
+  <style>
+:root {
+  color-scheme: light dark;
+
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #595959;
+  --border: #e0e0e0;
+  --th-bg: #f6f8fa;
+  --code-bg: #f4f4f4;
+  --link: #0969da;
+  --focus-ring: #0969da;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1117;
+    --fg: #e6edf3;
+    --muted: #8b949e;
+    --border: #30363d;
+    --th-bg: #161b22;
+    --code-bg: #161b22;
+    --link: #58a6ff;
+    --focus-ring: #58a6ff;
+  }
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1.5rem auto;
+  max-width: 60rem;
+  padding: 0 1rem 3.5rem;
+  background-color: var(--bg);
+  color: var(--fg);
+  font: 1.15rem/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  
+  /* Cú pháp hiện đại thay thế cho word-wrap */
+  overflow-wrap: break-word;
+}
+
+.site-header {
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1rem;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 0.5rem 1.25rem;
+  font-size: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+nav a:hover, 
+nav a:focus-visible {
+  color: var(--fg);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+nav .nav-brand {
+  color: var(--fg);
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.skip-link {
+  position: absolute;
+  transform: translateY(-150%);
+  left: 1rem;
+  background: var(--fg);
+  color: var(--bg);
+  padding: 0.5rem 1rem;
+  z-index: 100;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+  transition: transform 0.2s ease;
+}
+
+.skip-link:focus {
+  transform: translateY(1rem);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: var(--fg);
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--border);
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1.15rem;
+}
+
+h6 {
+  font-size: 1rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+p, ul, ol, blockquote, table {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+li > ul,
+li > ol {
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+a:has(img) {
+  text-decoration: none;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.page-header .page-subtitle {
+  color: var(--muted);
+  font-size: 1.15rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page-header img {
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.875em;
+  background-color: var(--code-bg);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+
+pre {
+  background-color: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem;
+  overflow-x: auto;
+  tab-size: 2;
+}
+
+pre code {
+  background: transparent;
+  padding: 0;
+  border: none;
+  font-size: 0.9rem;
+  border-radius: 0;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.6rem 0.75rem;
+  vertical-align: top;
+}
+
+th {
+  background-color: var(--th-bg);
+  font-weight: 600;
+}
+
+blockquote {
+  margin-inline: 0;
+  border-left: 4px solid var(--border);
+  padding-left: 1rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media print {
+  body {
+    max-width: none;
+    color: #000;
+    background: #fff;
+  }
+  .skip-link, nav {
+    display: none;
+  }
+}
+  </style>
 </head>
-
 <body>
 
-<nav>
-<a href="/">Hocbigg</a>
-<a href="/european-studies/">European-Studies</a>
-<a href="/european-studies/extras/courses.html">Extra Courses</a>
-<a href="/european-studies/extras/readings.html">Extra Reading</a>
-<a href="https://github.com/hocbigg/european-studies/" target="_blank">View on Github</a>
-</nav>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
 
-<main>
-<article>
+  <header class="site-header">
+    <nav aria-label="Main Navigation">
+    <ul>
+      <li><a href="https://hocbigg.github.io/" class="nav-brand">Hocbigg</a></li>
+      <li><a href="/european-studies/">European Studies</a></li>
+      <li><a href="/european-studies/extras/readings.html">Extra Readings</a></li>
+      <li><a href="/european-studies/extras/courses.html">Extra Courses</a></li>
+      <li><a href="https://github.com/hocbigg/european-studies" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (opens in new tab)</span></a></li>
+    </ul>
+    </nav>
+  </header>
 
-<h1 id="great-readings">Great Readings</h1>
-<p>This document consists of great books or articles on European Studies.
-Some are here because there is a course covering the same material;
-some are just great books that you should read at some point in your career.</p>
-<p>Once you have made it through most of the curriculum, knowing whether a book is worth your time will become easier.
-Or, if you are struggling in one of the courses, perhaps reading a book on the subject will help.</p>
-<h2 id="general-european-studies">General European Studies</h2>
-<table>
+  <main id="main-content">
+    <article>
+
+<h1 id="great-readings-in-european-studies">Great Readings in European Studies</h1>
+<p>This bibliography curates field-defining monographs, seminal theoretical essays, and landmark papers across European Studies. These works represent intellectual milestones that formulated the paradigms, debates, and empirical foundations of the discipline.</p>
+<h2 id="the-idea-of-europe-state-formation">The Idea of Europe &amp; State Formation</h2>
+<div class="table-wrapper" tabindex="0" role="region" aria-label="Scrollable table"><table>
 <thead>
 <tr>
-<th style="text-align: left;">Name</th>
-<th style="text-align: center;">Author(s)</th>
+<th style="text-align: left;">Title</th>
+<th style="text-align: left;">Author(s)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Inheritance-Rome-Illuminating-Dark-Ages/dp/0143117424">The Inheritance of Rome: Illuminating the Dark Ages 400-1000</a></td>
-<td style="text-align: center;">Chris Wickham</td>
+<td style="text-align: left;"><a href="https://www.gutenberg.org/ebooks/50922" target="_blank" rel="noopener noreferrer"><em>Perpetual Peace: A Philosophical Essay</em></a></td>
+<td style="text-align: left;">Immanuel Kant</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Heart-Europe-History-Roman-Empire/dp/0674058097">Heart of Europe: A History of the Holy Roman Empire</a></td>
-<td style="text-align: center;">Peter H. Wilson</td>
+<td style="text-align: left;"><a href="https://archive.org/details/makingofeuropeco0000bart" target="_blank" rel="noopener noreferrer"><em>The Making of Europe: Conquest, Colonization and Cultural Change 950–1350</em></a></td>
+<td style="text-align: left;">Robert Bartlett</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://books.google.com/books?isbn=9781557863683" target="_blank" rel="noopener noreferrer"><em>Coercion, Capital, and European States, AD 990–1992</em></a></td>
+<td style="text-align: left;">Charles Tilly</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://books.google.com/books?isbn=9780674058095" target="_blank" rel="noopener noreferrer"><em>Heart of Europe: A History of the Holy Roman Empire</em></a></td>
+<td style="text-align: left;">Peter H. Wilson</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://books.google.com/books?isbn=9780691049090" target="_blank" rel="noopener noreferrer"><em>Provincializing Europe: Postcolonial Thought and Historical Difference</em></a></td>
+<td style="text-align: left;">Dipesh Chakrabarty</td>
 </tr>
 </tbody>
-</table>
-<h2 id="history">History</h2>
-<table>
+</table></div>
+<h2 id="totalitarianism-war-democratic-rupture">Totalitarianism, War &amp; Democratic Rupture</h2>
+<div class="table-wrapper" tabindex="0" role="region" aria-label="Scrollable table"><table>
 <thead>
 <tr>
-<th style="text-align: left;">Name</th>
-<th style="text-align: center;">Author(s)</th>
+<th style="text-align: left;">Title</th>
+<th style="text-align: left;">Author(s)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Sleepwalkers-Europe-Went-War-1914/dp/0061146668">The Sleepwalkers: How Europe Went to War in 1914</a></td>
-<td style="text-align: center;">Christopher Clark</td>
+<td style="text-align: left;"><a href="https://books.google.com/books?isbn=9780062199225" target="_blank" rel="noopener noreferrer"><em>The Sleepwalkers: How Europe Went to War in 1914</em></a></td>
+<td style="text-align: left;">Christopher Clark</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Iron-Kingdom-Downfall-Prussia-1600-1947/dp/0674023854">Iron Kingdom: The Rise and Downfall of Prussia, 1600-1947</a></td>
-<td style="text-align: center;">Christopher Clark</td>
+<td style="text-align: left;"><a href="https://archive.org/details/hannah-arendt-the-origins-of-totalitarianism" target="_blank" rel="noopener noreferrer"><em>The Origins of Totalitarianism</em></a></td>
+<td style="text-align: left;">Hannah Arendt</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://archive.org/details/bloodlandseurope0000snyd" target="_blank" rel="noopener noreferrer"><em>Bloodlands: Europe Between Hitler and Stalin</em></a></td>
+<td style="text-align: left;">Timothy Snyder</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://books.google.com/books?isbn=9780679757047" target="_blank" rel="noopener noreferrer"><em>Dark Continent: Europe's Twentieth Century</em></a></td>
+<td style="text-align: left;">Mark Mazower</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://archive.org/details/postwarhistoryof00judt" target="_blank" rel="noopener noreferrer"><em>Postwar: A History of Europe Since 1945</em></a></td>
+<td style="text-align: left;">Tony Judt</td>
 </tr>
 </tbody>
-</table>
-<h2 id="politics-and-eu">Politics and EU</h2>
-<table>
+</table></div>
+<h2 id="theories-of-european-integration-supranational-governance">Theories of European Integration &amp; Supranational Governance</h2>
+<div class="table-wrapper" tabindex="0" role="region" aria-label="Scrollable table"><table>
 <thead>
 <tr>
-<th style="text-align: left;">Name</th>
-<th style="text-align: center;">Author(s)</th>
+<th style="text-align: left;">Title</th>
+<th style="text-align: left;">Author(s)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Why-Europe-Will-Run-Century/dp/1586484249">Why Europe Will Run the 21st Century</a></td>
-<td style="text-align: center;">Mark Leonard</td>
+<td style="text-align: left;"><a href="https://archive.org/details/unitingofeuropep0000haas" target="_blank" rel="noopener noreferrer"><em>The Uniting of Europe: Political, Social, and Economic Forces, 1950–1957</em></a></td>
+<td style="text-align: left;">Ernst B. Haas</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Passage-Europe-Continent-Became-Union/dp/0300191554">The Passage to Europe: How a Continent Became a Union</a></td>
-<td style="text-align: center;">Luuk van Middelaar</td>
+<td style="text-align: left;"><a href="https://books.google.com/books?isbn=9780415216296" target="_blank" rel="noopener noreferrer"><em>The European Rescue of the Nation-State</em></a></td>
+<td style="text-align: left;">Alan S. Milward</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://www.jstor.org/stable/796898" target="_blank" rel="noopener noreferrer"><em>"The Transformation of Europe"</em></a></td>
+<td style="text-align: left;">J.H.H. Weiler</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://books.google.com/books?isbn=9780801485091" target="_blank" rel="noopener noreferrer"><em>The Choice for Europe: Social Purpose and State Power from Messina to Maastricht</em></a></td>
+<td style="text-align: left;">Andrew Moravcsik</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://books.google.com/books?isbn=9780300181128" target="_blank" rel="noopener noreferrer"><em>The Passage to Europe: How a Continent Became a Union</em></a></td>
+<td style="text-align: left;">Luuk van Middelaar</td>
 </tr>
 </tbody>
-</table>
-<h2 id="culture-and-society">Culture and Society</h2>
-<table>
+</table></div>
+<h2 id="comparative-european-political-economy-social-models">Comparative European Political Economy &amp; Social Models</h2>
+<div class="table-wrapper" tabindex="0" role="region" aria-label="Scrollable table"><table>
 <thead>
 <tr>
-<th style="text-align: left;">Name</th>
-<th style="text-align: center;">Author(s)</th>
+<th style="text-align: left;">Title</th>
+<th style="text-align: left;">Author(s)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/WEIRDest-People-World-Industrialized-Democratic/dp/0374173222">The WEIRDest People in the World</a></td>
-<td style="text-align: center;">Joseph Henrich</td>
+<td style="text-align: left;"><a href="https://archive.org/details/greattransformat00pola" target="_blank" rel="noopener noreferrer"><em>The Great Transformation: The Political and Economic Origins of Our Time</em></a></td>
+<td style="text-align: left;">Karl Polanyi</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/remoteofficework00">Remote: Reflections on Life in the Shadow of Celebrity</a> (free alternative example)</td>
-<td style="text-align: center;">Various</td>
+<td style="text-align: left;"><a href="https://books.google.com/books?isbn=9780691028576" target="_blank" rel="noopener noreferrer"><em>The Three Worlds of Welfare Capitalism</em></a></td>
+<td style="text-align: left;">Gøsta Esping-Andersen</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://archive.org/details/varietiesofcapit0355unse" target="_blank" rel="noopener noreferrer"><em>Varieties of Capitalism: The Institutional Foundations of Comparative Advantage</em></a></td>
+<td style="text-align: left;">Peter A. Hall &amp; David Soskice (eds.)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://books.google.com/books?isbn=9780691172927" target="_blank" rel="noopener noreferrer"><em>The Euro and the Battle of Ideas</em></a></td>
+<td style="text-align: left;">Markus K. Brunnermeier, Harold James, &amp; Jean-Pierre Landau</td>
 </tr>
 </tbody>
-</table>
-</article>
-</main>
+</table></div>
+<h2 id="nationalism-postnationalism-european-identity">Nationalism, Postnationalism &amp; European Identity</h2>
+<div class="table-wrapper" tabindex="0" role="region" aria-label="Scrollable table"><table>
+<thead>
+<tr>
+<th style="text-align: left;">Title</th>
+<th style="text-align: left;">Author(s)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><a href="https://archive.org/details/imaginedcommunit0000ande" target="_blank" rel="noopener noreferrer"><em>Imagined Communities: Reflections on the Origin and Spread of Nationalism</em></a></td>
+<td style="text-align: left;">Benedict Anderson</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://books.google.com/books?isbn=9780745623528" target="_blank" rel="noopener noreferrer"><em>The Postnational Constellation: Political Essays</em></a></td>
+<td style="text-align: left;">Jürgen Habermas</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://archive.org/details/inventingeastern0000wolf" target="_blank" rel="noopener noreferrer"><em>Inventing Eastern Europe: The Map of Civilization on the Mind of the Enlightenment</em></a></td>
+<td style="text-align: left;">Larry Wolff</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="central-and-eastern-europe-dissent-division-and-transition">Central and Eastern Europe: Dissent, Division, and Transition</h2>
+<div class="table-wrapper" tabindex="0" role="region" aria-label="Scrollable table"><table>
+<thead>
+<tr>
+<th style="text-align: left;">Title</th>
+<th style="text-align: left;">Author(s)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><a href="https://www.nybooks.com/articles/1984/04/26/the-tragedy-of-central-europe/" target="_blank" rel="noopener noreferrer"><em>"The Tragedy of Central Europe"</em></a></td>
+<td style="text-align: left;">Milan Kundera</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://www.nonviolent-conflict.org/wp-content/uploads/1979/01/the-power-of-the-powerless.pdf" target="_blank" rel="noopener noreferrer"><em>"The Power of the Powerless"</em></a></td>
+<td style="text-align: left;">Václav Havel</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://archive.org/details/magiclanternrevo0000gart" target="_blank" rel="noopener noreferrer"><em>The Magic Lantern: The Revolution of '89 Witnessed in Warsaw, Budapest, Berlin, and Prague</em></a></td>
+<td style="text-align: left;">Timothy Garton Ash</td>
+</tr>
+</tbody>
+</table></div>
+    </article>
+  </main>
 
 </body>
 </html>
